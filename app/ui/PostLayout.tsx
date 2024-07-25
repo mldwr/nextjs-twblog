@@ -1,9 +1,9 @@
 import { ReactNode } from 'react'
 import { CoreContent } from 'pliny/utils/contentlayer'
 import type { Blog, Authors } from 'contentlayer/generated'
-import PageTitle from '@/components/PageTitle'
-import SectionContainer from '@/components/SectionContainer'
-import siteMetadata from '@/data/siteMetadata'
+import PageTitle from 'app/components/PageTitle'
+import SectionContainer from 'app/components/SectionContainer'
+import siteMetadata from 'data/siteMetadata'
 
 
 const postDateTemplate: Intl.DateTimeFormatOptions = {
